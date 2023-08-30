@@ -1,0 +1,614 @@
+* {
+    margin: 0;
+}
+
+
+@font-face {
+    src: url(../fonts/SF-Pro-Display-Regular.otf);
+    font-family: SFProDisplay;
+}
+
+@font-face {
+    src: url(../fonts/SF-Pro-Display-Semibold.otf);
+    font-family: SFProDisplaySemiBold;
+}
+
+@font-face {
+    src: url(../fonts/SF-Pro-Display-Bold.otf);
+    font-family: SFProDisplayBold;
+}
+
+@font-face {
+    src: url(../fonts/SF-Pro-Display-Medium.otf);
+    font-family: SFProDisplayMedium;
+}
+
+@font-face {
+    src: url(../fonts/SF-Pro-Display-Light.otf);
+    font-family: SFProLight;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #008dcc;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.geo {
+    width: 12px;
+    height: 14px;
+    background: url('../svg/geo.svg');
+    margin-right: 10px;
+}
+
+.address {
+    font-family: SFProDisplay;
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 50px;
+    margin-right: 39px;
+}
+
+.mail {
+    width: 17px;
+    height: 12px;
+    background: url('../svg/mail.svg');
+    margin-right: 11px;
+}
+
+.write-us {
+    text-decoration: none;
+    font-family: SFProDisplay;
+    font-size: 13px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.social {
+    display: flex;
+}
+
+.language {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 31px;
+}
+
+.lang-option {
+    display: inline-flex;
+    font-family: SFProDisplay;
+    font-size: 13px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-right: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.choosen {
+    border-radius: 5px;
+    background-color: #33a4d6;
+    width: 26px;
+    height: 26px;
+}
+
+.socials {
+    list-style-type: none;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+}
+
+.insta {
+    background: url('../svg/insta.svg');
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+}
+
+.vk {
+    background: url('../svg/vk.svg');
+    background-repeat: no-repeat;
+    width: 13px;
+    height: 7px;
+}
+
+.facebook {
+    background: url('../svg/fb.svg');
+    background-repeat: no-repeat;
+    width: 7px;
+    height: 13px;
+}
+
+.bkg-icons  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #33a4d6;
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+}
+
+.last {
+    margin: 0;
+}
+
+.time {
+    display: flex;
+}
+
+.clock {
+    background: url('../svg/time.svg');
+    width: 15px;
+    height: 15px;
+    align-self: center;
+    margin-right: 4px;
+}
+
+.working-time {
+    font-family: SFProDisplay;
+    font-size: 13px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.navigation {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: block;
+    background: url('../svg/logo.svg');
+    width: 120px;
+    height: 76px;
+}
+.menu {
+    display: inline-flex;
+    width: 497px;
+    list-style-type: none;
+    padding: 0;
+    font-family: SFProDisplay;
+    font-size: 15px;
+    line-height: 27px;
+    align-items: center;
+    margin-left: 54.25px;
+    margin-right: 104.5px;
+    justify-content: space-between;
+}
+
+.menu-link {
+    color: #575a5b;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    color: #008dcc;
+}
+
+.lens {
+    background: url('../svg/lens.svg');
+    width: 15px;
+    height: 16px;
+    align-self: center;
+    margin-right: 47.50px;
+}
+
+.phone {
+    background: url('../svg/phone.svg');
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    margin-right: 10.75px;
+}
+
+.number {
+    align-self: center;
+    font-family: SFProDisplayBold;
+    font-size: 17px;
+    line-height: 27px;
+    text-decoration: none;
+    color: #10171a;
+    margin-right: 23px;
+}
+
+.call-me {
+    align-self: center;
+    font-family: SFProDisplaySemiBold;
+    font-size: 11px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background-color: #008dcc;
+    width: 148.25px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 24.5px 0 24.5px;
+    cursor: pointer;
+}
+
+.main-info {
+    background-color: #e2f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 523px;
+    overflow: hidden;
+}
+
+.offer-block {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    z-index: 1;
+    margin-top: 107px;
+}
+
+.offer {
+    font-family: SFProDisplayMedium;
+    font-size: 40px;
+    line-height: 50px;
+    width: 64%;
+    display: inline-block;
+}
+
+.highlighting {
+    color: #008dcc;
+}
+
+.preposition {
+    font-family: SFProDisplay;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 17px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.request {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #008dcc;
+    font-family: SFProDisplayMedium;
+    color: #FFFFFF;
+    border-radius: 5px;
+    width: 207px;
+    height: 51px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.request::after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 18px;
+    height: 10px;
+    right: -45px;
+    background-image: url('../svg/arrow-right.svg');
+}
+
+.main-img-cont {
+    display: flex;
+}
+
+.prosthetic {
+    background: url('../svg/prosthetic.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    display: block;
+    position: absolute;
+    z-index: 0;
+    width: 1900px;
+    height: 523px;
+}
+
+.prosthetic::after {
+    content: '+';
+    font-family: SFProLight;
+    color: #FFFFFF;
+    font-style: italic;
+    font-size: 39px;
+    line-height: 20px;
+    background: #f26d03;
+    position: relative;
+    top: 258px;
+    left: 1123px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    outline-color: #f26d03;
+    outline-offset: 15px;
+    outline-style: solid;
+    outline-width: 1px;
+}
+
+.circle {
+    background: #f1f8f9;
+    padding: 16%;
+    border-radius: 50%;
+    position: relative;
+    top: -705px;
+    right: 687px;
+}
+
+.buttons-cont {
+    margin-top: 102px;
+    display: flex;
+    width: 361.50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.back-next-block {
+    position: relative;
+    width: 100px;
+}
+
+.back {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.back::after {
+    content: '';
+    background: url('../svg/arrow-left.svg');
+    position: relative;
+    display: block;
+    width: 28px;
+    height: 15px;
+}
+
+.next {
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.next::after {
+    content: '';
+    background: url('../svg/arrow-right1.svg');
+    position: relative;
+    display: block;
+    width: 28px;
+    height: 15px;
+}
+
+.square-block {
+    display: inline-flex;
+    position: relative;
+    width: 85px;
+    justify-content: space-between;
+}
+
+.square {
+    padding: 0;
+    border: none;
+    background: none;
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: #b5dbf3;
+}
+
+.active { 
+    position: relative;
+    background-color: #008dcc;
+}
+
+.catalogue-group {
+    margin-top: 63px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-block {
+    gap: 15px;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(50% - 10px);
+    height: 303px;
+    overflow: hidden;
+}
+
+.blue {
+    background-color: #008dcc;
+    z-index: 0;
+}
+
+.grey {
+    background-color: #f3f9fc;
+}
+
+.endoprosthesis {
+    background-image: url('../images/endoprosthesis.png');
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.endo-block {
+    display: block;
+    padding: 47.83px 0 32.50px 41px;
+}
+
+.header-white {
+    font-family: SFProDisplaySemiBold;
+    font-size: 23px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding-bottom: 32.5px;
+}
+
+.get-catalogue {
+    font-family: SFProDisplayBold;
+    font-size: 14px;
+    line-height: 27px;
+    width: 176px;
+    border: none;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 0px 3px 13px;
+}
+
+.cat-white {
+    color: #008dcc;
+    background-color: #fefefe;
+}
+
+.cat-blue {
+    color: #fefefe;
+    background-color: #008dcc;
+}
+
+.cat-white::after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 14px;
+    height: 8px;
+    right: -12px;
+    background-image: url('../svg/arrow-right-blue.svg');
+}
+
+.cat-blue::after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 14px;
+    height: 8px;
+    right: -12px;
+    background-image: url('../svg/arrow-right-white.svg');
+}
+
+.circle-endoprosthesis {
+    background: #f3f9fc;
+    border-radius: 50%;
+    padding: 30%;
+    width: 5%;
+    height: 5%;
+    position: relative;
+    top: -425px;
+    left: 290px;
+    z-index: 1;
+}
+
+.traumatology {
+    background-image: url('../images/traumatology.png');
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.thematic-block {
+    display: block;
+    width: 50%;
+    padding: 42.83px 0 32.5px 39px;
+}
+
+.header-black {
+    font-family: SFProDisplaySemiBold;
+    font-size: 23px;
+    line-height: 27px;
+    color: #283236;
+    padding-bottom: 32.5px;
+}
+
+.circle-traumatology {
+    background: #008dcc;
+    border-radius: 50%;
+    padding: 30%;
+    width: 5%;
+    height: 5%;
+    position: relative;
+    top: -395px;
+    left: 266px;
+    z-index: 1;
+}
+
+.endoscope-surgery {
+    background-image: url('../images/endoscopeSurgery.png');
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.endo-padding {
+    padding-bottom: 33px;
+    padding-top: 4px;
+}
+
+.circle-surgery {
+    background: #008dcc;
+    border-radius: 50%;
+    padding: 30%;
+    width: 5%;
+    height: 5%;
+    position: relative;
+    top: -183px;
+    left: 200px;
+    z-index: 1;
+}
+
+.drugs {
+    background-image: url('../images/drugs.png');
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.complex {
+    padding: 4px 0px 61px 3px;
+}
