@@ -28,6 +28,11 @@
     font-family: SFProLight;
 }
 
+@font-face {
+    src: url(../fonts/SF-Pro-Display-Heavy.otf);
+    font-family: SFProHeavy;
+}
+
 
 .header {
     display: flex;
@@ -323,7 +328,7 @@
 }
 
 .prosthetic {
-    background: url('../svg/prosthetic.svg');
+    background: url('../images/bone.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 5px center;
@@ -446,6 +451,7 @@
     width: 1200px;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 .card {
@@ -466,6 +472,7 @@
 .endoprosthesis {
     background-image: url('../images/endoprosthesis.png');
     background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     width: 100%;
     height: 100%;
@@ -495,6 +502,7 @@
     display: inline-flex;
     align-items: center;
     padding: 3px 0px 3px 13px;
+    cursor: pointer;
 }
 
 .cat-white {
@@ -542,6 +550,7 @@
 .traumatology {
     background-image: url('../images/traumatology.png');
     background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     width: 100%;
     height: 100%;
@@ -577,6 +586,7 @@
 .endoscope-surgery {
     background-image: url('../images/endoscopeSurgery.png');
     background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     width: 100%;
     height: 100%;
@@ -603,6 +613,7 @@
 .drugs {
     background-image: url('../images/drugs.png');
     background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     width: 100%;
     height: 100%;
@@ -611,4 +622,180 @@
 
 .complex {
     padding: 4px 0px 61px 3px;
+}
+
+.advantages {
+    display: flex;
+    justify-content: space-around;
+    background-image: url('../images/advantagesbkg.png');
+}
+
+.advantages-container {
+    max-width: 100%;
+    width: 1200px;
+    display: flex;
+}
+
+.advantage-block {
+    display: flex;
+    width: 242px;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid #1e94cb;
+    border-right: 1px solid #1e94cb;
+}
+
+.adv-first {
+    border-right: none;
+}
+
+.adv-last {
+    border-left: none;
+}
+
+.ellipse::before {
+    content: '';
+    display: block;
+    position: relative;
+    background-image: url('../images/ellipse-after.png');
+    width: 101px;
+    height: 93px;
+    left: -10px;
+}
+
+.ellipse {
+    margin-top: 47.40px;
+    background-image: url('../images/ellipse.png');
+    background-repeat: no-repeat;
+    width: 101px;
+    height: 93px;
+}
+
+.doc {
+    background-image: url('../images/doc.png');
+    background-repeat: no-repeat;
+    position: relative;
+    width: 36px;
+    height: 44px;
+    top: -66px;
+    left: 30px;
+}
+
+.healthcare {
+    background-image: url('../images/healthcare.png');
+    background-repeat: no-repeat;
+    position: relative;
+    width: 43px;
+    height: 46px;
+    top: -66px;
+    left: 28px;
+}
+
+.handshake {
+    background-image: url('../images/handshake.png');
+    background-repeat: no-repeat;
+    position: relative;
+    width: 43px;
+    height: 46px;
+    top: -66px;
+    left: 28px;
+}
+
+.globe {
+    background-image: url('../images/globe.png');
+    background-repeat: no-repeat;
+    position: relative;
+    width: 43px;
+    height: 46px;
+    top: -66px;
+    left: 28px;
+}
+
+.stopwatch {
+    background-image: url('../images/stopwatch.png');
+    background-repeat: no-repeat;
+    position: relative;
+    width: 43px;
+    height: 46px;
+    top: -66px;
+    left: 28px;
+}
+
+.adv-header {
+    margin-top: 31px;
+    font-family: SFProDisplayBold;
+    font-size: 13px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.adv-text {
+    margin-top: 20.20px;
+    font-family: SFProDisplay;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 80%;
+    padding-bottom: 36.2px;
+}
+
+.about-us-container {
+    margin-top: 92.59px;
+    display: flex;
+    justify-content: center;
+    background-color: #008dcc;
+}
+
+.about-us-container::after {
+    content: '';
+    background-color: #f3f9fc;
+    position: absolute;
+    width: 1110px;
+    height: 83%;
+    z-index: 0;
+    right: 0;
+}
+
+.about-us-block {
+    display: flex;
+    width: 1200px;
+    margin-top: 97.85px;
+    z-index: 1;
+}
+
+.about-us-photo {
+    background-image: url('../images/about-photo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 601px;
+    height: 688px;
+}
+
+.about-us-text {
+    margin-left: 65.60px;
+    width: 535px;
+}
+
+.about-us-header {
+    color: #212121;
+    font-family: SFProHeavy;
+    font-style: italic;
+    font-size: 36px;
+    margin-bottom: 14px;
+}
+
+.framing {
+    color: #FFFFFF;
+    padding: 10px;
+    font-family: SFProDisplayMedium;
+    font-size: 25px;
+    background-color: #f26d03;
+}
+
+.about-article {
+    font-family: SFProDisplay;
+    font-size: 15px;
 }
